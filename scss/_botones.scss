@@ -1,0 +1,93 @@
+/********Botones*********/
+
+.btnTodoTejido {
+    background-color: $color-verde-claro;
+    color: $color-blanco;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: #6f96a4;
+        color: $color-blanco;
+    }
+}
+
+/********Botones del Modal ********/
+
+.btnModalCancelar {
+    background-color: #a3b3b9;
+    color: $color-blanco;
+    border-radius: 10px;
+}
+
+.btnModalAceptar {
+    background-color: $color-verde-oscuro;
+    color: $color-blanco;
+    border-radius: 10px;
+}
+
+.btnModalCancelar:hover {
+    background-color: #aaaeaf;
+    color: $color-blanco;
+    border-radius: 10px;
+}
+
+.btnModalAceptar:hover {
+    background-color: $color-verde-claro;
+    color: $color-blanco;
+    border-radius: 10px;
+}
+
+/*******Boton del footer********/
+
+.btnFooter {
+    width: 130px;
+    background-color: $color-verde-oscuro;
+    align-items: center;
+}
+
+.boton {
+    margin: 20px;
+    background-color: $color-verde-oscuro;
+    color: $color-blanco;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+  }
+  
+  /*Boton del formulario*/
+
+.btnFormulario {
+    background-color: $color-verde-oscuro;
+    color: $color-blanco;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /*Botones de la tienda*/
+  
+  .botonTienda {
+    width: 100px;
+    height: 35px;
+    background-color: $color-blanco;
+    color: black;
+    border-radius: 10px;
+    border-color: rgb(201, 198, 198);
+    text-align: center;
+  }
+  
+  .botonTiendaNumero {
+    width: 40px;
+    height: 35px;
+    background-color: $color-blanco;
+    color: black;
+    border-radius: 10px;
+    border-color: rgb(201, 198, 198);
+    text-align: center;
+  }
+  

@@ -1,0 +1,42 @@
+/******* Header *******/
+
+.imgLogo {
+    width: 80px;
+}
+
+.logo {
+    margin-left: 3%;
+}
+
+.encabezado {
+    background-color: white;
+    border-bottom: 2px solid #ece7dd;
+}
+
+.menu {
+    margin-right: 20px;
+}
+
+
+/*Imagen del logo*/
+
+.logo {
+    width: 150px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px 20px;
+}
+
+a {
+    @include anclas; 
+}
+
+/*Contenido principal de la página*/
+
+main {
+    margin: 20px;
+    padding: 20px;
+}

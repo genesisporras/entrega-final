@@ -27,7 +27,26 @@ textarea {
     font-size: 18px;
     margin-bottom: 10px;
 }
+input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
 
 h3 {
     text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.mapContacto {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda | TodoTejido</title>
+    <meta name="description"
+        content="Descubre la magia del crochet en nuestra tienda online de tejidos a mano. Explora una exquisita colección de prendas y accesorios tejidos con amor y habilidad. Encuentra patrones únicos, hilos de alta calidad y todo lo que necesitas para dar vida a tus creaciones en crochet. ¡Sumérgete en el arte del tejido y crea piezas extraordinarias con nosotros!">
+    <title>Todo Tejido | Más que hilos y agujas</title>
     <link rel="shortcut icon" href="../img/logo-mini.png" type="image/x-icon">
-    <!-- CSS BOOTSTRAP-->
+    <!-- BOOSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- CSS -->
+    <!-- CSS  -->
     <link rel="stylesheet" href="../css/estilo.css">
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,14 +21,16 @@
     <script src="https://kit.fontawesome.com/ea7e377ed9.js" crossorigin="anonymous"></script>
 </head>
 
-
 <body class="container-fluid">
 
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg encabezado">
         <div class="container-fluid">
             <a class="navbar-brand logo" href="inicio.html">
                 <img class="imgLogo" src="../img/logo.png" alt="logo">
             </a>
+            <!-- TITULO TODO TEJIDO -->
+            <h1>Todo Tejido</h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -53,11 +57,82 @@
         </div>
     </nav>
 
+    <!-- CARROUSEL-->
+    <div class="carrousel">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/bolso2-carrousel.jpg" class="d-block w-100 caja" alt="bolso tejido">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Aprende a tejer bolsos</h5>
+                        <p>Con sencillos pasos, lograrás hacer bolsos a tu medida.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/vestido-carrousel-camel.png" class="d-block w-100" alt="vestido tejido">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Indumentaria en crochet</h5>
+                        <p>El verano se viene tejido.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/cesta3-carrousel-3.jpg" class="d-block w-100" alt="conjunto tejido">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Decora tu casa</h5>
+                        <p>Con piezas que aportan calidez</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- NOSOTROS -->
+    <h2 class="productos">Descubre el crochet</h2>
+    <div class="heading">
+        <p>En nuestra tienda, Todo Tejido, celebramos la rica historia del tejido a crochet y macramé. Nos inspiramos en
+            las tradiciones del pasado mientras exploramos nuevas tendencias y técnicas innovadoras. </p>
+    </div>
+    <div class="container-abt">
+        <section class="about">
+            <div class="about-image">
+                <img src="../img/bolso-33.jpg" alt="">
+            </div>
+            <div class="about-content">
+                <h2>Hilos y Agujas</h2>
+                <p>Cada pieza que creamos es única, tejida con amor y dedicación. Desde hermosos chales hasta prácticos
+                    accesorios para el hogar, ofrecemos una amplia gama de productos tejidos a mano que reflejan la
+                    belleza atemporal del croché.
+                    Unirse al mundo del tejido a crochet es sumergirse en una tradición que ha perdurado a lo largo del
+                    tiempo. En Todo Tejido, no solo compartimos la magia de esta antigua técnica, sino que también
+                    fomentamos una comunidad de creatividad y aprecio por el arte del ganchillo. </p>
+                <a href="" class="read-more">Leer más</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- TITULO PRODUCTOS -->
     <div>
         <h2 class="productos">Productos</h2>
     </div>
-
-    <!-- Cards -->
+    <!-- GALERIA DE PRODUCTOS -->
     <div class="gallery">
         <!-- Card 1 -->
         <div class="card">
@@ -131,56 +206,35 @@
                 <button class="buttonProduct">Comprar</button>
             </div>
         </div>
-        <!-- Card 9 -->
-        <div class="card">
-            <img src="../img/cesta-1.png" alt="Cesta tejida de forma circular">
-            <div class="description">
-                <h3>Cesta circular</h3>
-                <p>$15.000</p>
-                <button class="buttonProduct">Comprar</button>
-            </div>
-        </div>
-        <!-- Card 10 -->
-        <div class="card">
-            <img src="../img/cesta-4.png" alt="Cesta tejida con tapa">
-            <div class="description">
-                <h3>Cesta con tapa</h3>
-                <p>$18.000</p>
-                <button class="buttonProduct">Comprar</button>
-            </div>
-        </div>
-        <!-- Card 11 -->
-        <div class="card">
-            <img src="../img/cesta-3.png" alt="Cesta tejida pequeña en forma cuadrada">
-            <div class="description">
-                <h3>Cesta pequeña</h3>
-                <p>$12.000</p>
-                <button class="buttonProduct">Comprar</button>
-            </div>
-        </div>
-        <!-- Card 12 -->
-        <div class="card">
-            <img src="../img/cesta-2.png" alt="Cesta tejida grande en forma cuadrada">
-            <div class="description">
-                <h3>Cesta grande</h3>
-                <p>$15.000</p>
-                <button class="buttonProduct">Comprar</button>
-            </div>
-        </div>
     </div>
 
-    <!-- Boton Más productos -->
+    <!-- BOTON DE VER MAS PRODUCTOS -->
     <div class="btnTienda">
         <button class="btnVerMas">Ver más productos</button>
     </div>
-    
-
+    <!-- TITULO CONTACTENOS -->
+    <div>
+        <h2 class="productos">¡Contactanos!</h2>
+    </div>
+    <section class="banner">
+        <div class="formContacto">
+            <form>
+                <input type="text" placeholder="Ingrese su nombre">
+                <input type="text" placeholder="Ingrese su apellido">
+                <input type="email" placeholder="Ingrese su email">
+                <textarea cols="30" rows="7" placeholder="Mensaje"></textarea>
+                <div class="flex">
+                    <button class="boton">Enviar</button>
+                    <button class="boton">Borrar</button>
+                </div>
+            </form>
+        </div>
+    </section>
 
     <hr>
 
-     <!-- Footer -->
-
-     <footer class="footer">
+    <!-- FOOTER -->
+    <footer class="footer">
         <div class="grupo-1">
             <div class="box">
                 <figure>
@@ -203,7 +257,6 @@
                     <a href="#" class="fa fa-instagram"></a>
                     <a href="#" class="fa fa-twitter"></a>
                     <a href="#" class="fa fa-youtube"></a>
-
                 </div>
             </div>
         </div>
@@ -213,12 +266,9 @@
 
     </footer>
 
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>

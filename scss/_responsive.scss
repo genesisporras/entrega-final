@@ -1,0 +1,179 @@
+/* Media query para pantallas de 320px a 768px */
+@media (max-width: 544px) {
+    .portada{
+        height: 100vh;
+    }
+    .neon{
+        margin-top: 50px;
+        font-size: 40px;
+        justify-content: center;
+        text-align: center;
+    }
+    .contenedorPadre{
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+    }
+    .contenedorHijo{
+        width: 90%;
+        padding: 20px;
+        margin: 10px;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .contenedorHijo p{
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .btn-neon {
+        bottom: 50px;
+    }
+
+    .carrousel {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .encabezado h1 {
+        display: none;
+    }
+
+    .productos {
+        font-size: 22px;
+    }
+    .containerCards {
+        padding: 0px;
+        
+    }
+
+    .cardGaleria {
+        box-shadow: 0 0 10px $color-verde-oscuro, 0 0 40px $color-verde-oscuro, 0 0 80px $color-verde-oscuro;
+    }
+    
+
+} 
+
+@media (min-width:545px) and (max-width: 768px) {
+    .neon {
+        font-size: 55px;
+    }
+    .encabezado h1 {
+        font-size: 24px;
+    }
+    .carrousel {
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+}
+
+/* Media query para pantallas de 769px a 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .neon {
+        font-size: 60px;
+    }
+    .encabezado h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .carrousel {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+
+/* Media query para pantallas más grandes de 1025px */
+@media (min-width: 1025px) {
+    .neon {
+        font-size: 70px;
+    }
+
+}
+
+@media screen and (max-width: 821px) {
+    .footer .grupo-1 {
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+      padding: 35px 0px;
+    }
+  }
+  
+/* Ajuste para pantallas de 1024px o más */
+@media screen and (min-width: 1024px) {
+    .gallery {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 583px) {
+    .gallery {
+        margin: 20px 60px;
+        justify-content: center;
+    }
+}
+
+/* Estilos para pantallas medianas (1024px o menos) */
+@media (max-width: 1200px) {
+    .min-width-card {
+        flex: 0 0 calc(50% - 20px);
+        /* 2 tarjetas por fila con espaciado */
+        max-width: calc(50% - 20px);
+        margin-bottom: 20px;
+    }
+}
+
+/* Estilos para pantallas pequeñas (647px o menos) */
+@media (max-width: 800px) {
+    .min-width-card {
+        flex: 0 0 100%;
+        /* 1 tarjeta por fila */
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .heading {
+      padding: 0px 20px;
+  
+      h1 {
+        font-size: 36px;
+      }
+  
+      p {
+        font-size: 17px;
+        margin-bottom: 0px;
+      }
+    }
+  
+    .container-abt {
+      padding: 0px;
+    }
+  
+    .about {
+      padding: 20px;
+      flex-direction: column;
+    }
+  
+    .about-image {
+      margin-right: 0px;
+      margin-bottom: 20px;
+    }
+  
+    .about-content {
+      p {
+        padding: 0px;
+        font-size: 16px;
+      }
+  
+      .read-more {
+        font-size: 16px;
+      }
+    }
+  }
+

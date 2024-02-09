@@ -5,7 +5,8 @@
     color: white;
     text-align: center;
     text-transform: uppercase;
-    padding: 16px;
+    padding: 5px;
+    font-size: 1.5rem;
 
     h2 {
         font-size: 2rem;
@@ -42,14 +43,80 @@
     border-bottom: 1px solid black;
     text-align: center;
     margin: 10px;
-  }
-  
-  
-  .cardGaleria {
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px;
+}
+
+
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+
+    &:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px 8px 0 0;
+    }
+}
+
+.description {
+    padding: 15px;
+    font-size: 18px;
+}
+
+.description h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.description p {
+    font-size: 17px;
+    text-align: left;
+}
+
+.buttonProduct {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #598392;
+    color: #fff;
     border: none;
-    padding: 40px;
-  }
-  
-  .containerCards {
-    padding: 30px;
-  }
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+        background-color: #6f96a4;
+    }
+}
+
+
+.min-width-card {
+    flex: 0 0 calc(33% - 16px);
+    /* 2 tarjetas por fila */
+    max-width: calc(33% - 16px);
+    margin-bottom: 20px;
+}
+
+
+
+.card-text {
+    font-size: 18px;
+}
+
+.cardTutorial:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

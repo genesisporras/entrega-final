@@ -1,4 +1,4 @@
-/********Botones*********/
+/********BOTONES*********/
 
 .btnTodoTejido {
     background-color: $color-verde-claro;
@@ -13,7 +13,8 @@
     }
 }
 
-/********Botones del Modal ********/
+/********BOTONES DEL MODAL ********/
+
 
 .btnModalCancelar {
     background-color: #a3b3b9;
@@ -56,6 +57,10 @@
     border-radius: 10px;
   }
   
+  .boton:hover{
+    background-color: #6f96a4;
+        color: $color-blanco;
+  }
   /*Boton del formulario*/
 
 .btnFormulario {
@@ -67,6 +72,11 @@
     font-size: 15px;
     cursor: pointer;
     margin-top: 10px;
+
+    &:hover {
+        background-color: #6f96a4;
+        color: $color-blanco;
+    }
   }
   
   /*Botones de la tienda*/
@@ -89,5 +99,29 @@
     border-radius: 10px;
     border-color: rgb(201, 198, 198);
     text-align: center;
+  }
+
+  .btnTienda {
+    margin: 20px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btnVerMas {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #bfa988;
+    font-weight: bold;
+    
+  }
+
+  .btnVerMas:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
   

@@ -10,7 +10,7 @@
 
 .encabezado {
     background-color: white;
-    border-bottom: 2px solid #ece7dd;
+    border-bottom: 2px solid #bfa988;
 }
 
 .menu {
@@ -39,4 +39,103 @@ a {
 main {
     margin: 20px;
     padding: 20px;
+}
+
+
+.portada {
+    background-color: #D6D8D7;
+    background-image: url(../img/portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+  
+.btn-neon {
+    position: relative;
+    display: inline-block;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    color: $color-verde-oscuro;
+    box-shadow: 0 0 5px #f3f3f5, 0 0 15px #f3f3f5, 0 0 20px #f3f3f5, 0 0 25px #f3f3f5;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background-color: #f3f3f5;
+  
+    &:hover {
+      background-color: $color-verde-claro;
+      color: white;
+      border-radius: 25px;
+      box-shadow: 0 0 10px $color-verde-claro, 0 0 40px $color-verde-claro, 0 0 80px $color-verde-claro;
+      transition-delay: 0.1s;
+    }
+  }
+  
+  .neon {
+    margin-top: 30px;
+    font-size: 65px ;
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: 0.1s;
+    color:$color-verde-oscuro;
+    /*text-shadow: 0 0 5px #A98E65, 0 0 25px #A98E65, 0 0 50px #A98E65, 0 0 100px #A98E65;*/
+  }
+
+  body p {
+    font-size: 20px;
+  }
+  
+.contenedorPadre {
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    align-items: center;
+    height: 70vh;
+
+}
+
+.contenedorHijo {
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+    color: #6B5B4C;
+}
+
+.contenedorHijo p {
+    text-align: left;
+    width: 55%;
+    color: black;
+    line-height: 2;
+}
+
+.container {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.text-center{
+    padding: 0;
+}
+
+.py-5{
+    padding: 0;
+}
+
+.container .row{
+    justify-content: center;
+    align-items: center;
+}
+
+.py-lg-5 {
+    padding: 0px !important;
 }
